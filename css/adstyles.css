@@ -1,0 +1,40 @@
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+    .ad-container {
+      display: none; /* Oculta los anuncios en dispositivos móviles */
+    }
+  }
+  
+  /* Estilo para dispositivos de escritorio */
+  @media (min-width: 769px) {
+    .ad-container.left {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+  
+    .ad-container.right {
+      position: fixed;
+      top: 0;
+      right: 0;
+    }
+  }
+/* Estilo para dispositivos de escritorio */
+@media (min-width: 769px) {
+    #mobile-banner {
+      display: none; /* Oculta el banner en dispositivos de escritorio */
+    }
+  }
+  
+  /* Estilo para dispositivos móviles */
+  @media (max-width: 768px) {
+    #mobile-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f0f0f0; /* Fondo del banner */
+      /* Estilos adicionales para el banner móvil */
+    }
+  }
+    
